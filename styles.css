@@ -52,6 +52,7 @@ body {
 .register-button {
     text-align: left;
     border-radius: 30px;
+    border: none;
     color: hsl(257, 40%, 49%);
     padding: 15px 70px;
     /* text-align: center; */
@@ -61,28 +62,60 @@ body {
     margin: 4% 3% 4% 0%;
 }
 
+.register-button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
 .footer {
     padding-top: 10rem;
 }
 
 /* Social Media */
+
 #social-media {
     text-align: right;
     padding-right: 2rem;
 }
 
-.facebook {
+.facebook-icon {
     width: 1rem;
     margin: 10px 10px;
-    color: white;
 }
 
-.twitter {
+.facebook-icon:hover,
+.facebook-icon:focus {
+    filter: invert(17%) sepia(53%) saturate(5067%) hue-rotate(289deg) brightness(78%) contrast(119%);
+}
+
+.social-media-icon {
     width: 2rem;
     margin: 10px 10px;
 }
 
-.instagram {
-    width: 2rem;
-    margin: 10px 10px;
+.social-media-icon:hover,
+.social-media-icon:focus {
+    filter: invert(17%) sepia(53%) saturate(5067%) hue-rotate(289deg) brightness(78%) contrast(119%);
+}
+
+@media (max-width: 425px) {
+    body {
+        background-image: url("images/bg-mobile.svg");
+    }
+
+    .desktop-image {
+        padding-bottom: 55px;
+    }
+
+    .information {
+        text-align: center;
+    }
+
+    .huddle-text {
+        text-align: center;
+    }
+
+    .big-heading {
+        text-align: center;
+    }
 }
