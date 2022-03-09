@@ -81,6 +81,7 @@ body {
 .facebook-icon {
     width: 1rem;
     margin: 10px 10px;
+    filter: invert(99%) sepia(0%) saturate(91%) hue-rotate(303deg) brightness(114%) contrast(100%);
 }
 
 .facebook-icon:hover,
@@ -91,6 +92,7 @@ body {
 .social-media-icon {
     width: 2rem;
     margin: 10px 10px;
+    filter: invert(99%) sepia(0%) saturate(91%) hue-rotate(303deg) brightness(114%) contrast(100%);
 }
 
 .social-media-icon:hover,
