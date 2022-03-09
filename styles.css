@@ -3,6 +3,8 @@ body {
     background-image: url("images/bg-desktop.svg");
     background-color: hsl(257, 40%, 49%);
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .attribution { 
@@ -42,8 +44,20 @@ body {
     padding-right: 0;
 }
 
-.button {
+.information {
     text-align: left;
+}
+
+.register-button {
+    text-align: left;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 70px;
+    /* text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    /* margin: 6px 1px; */
+    margin: 4% 3% 4% 0%;
 }
 
 .footer {
