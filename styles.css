@@ -68,7 +68,7 @@ body {
 }
 
 .footer {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 /* Social Media */
@@ -76,6 +76,7 @@ body {
 #social-media {
     text-align: right;
     padding-right: 2rem;
+    padding-top: 3.5rem;
 }
 
 .facebook-icon {
