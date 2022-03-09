@@ -38,11 +38,12 @@ body {
     line-height: 1.5;
 }
 
-.logo {
+header {
     text-align: left;
     height: 1.25em;
     padding: 0.75em;
     padding-right: 0;
+    padding-top: 2.5rem;
 }
 
 .information {
@@ -108,6 +109,14 @@ body {
 
     .desktop-image {
         padding-bottom: 55px;
+    }
+
+    header .huddle-logo {
+        width: 10rem;
+    }
+
+    .title {
+        padding-top: 6rem;
     }
 
     .information {
