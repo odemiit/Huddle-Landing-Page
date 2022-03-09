@@ -121,4 +121,9 @@ body {
     .big-heading {
         text-align: center;
     }
+
+    #social-media {
+        text-align: center;
+        padding-right: 0%;
+    }
 }
